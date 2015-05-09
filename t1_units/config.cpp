@@ -784,7 +784,7 @@ class CfgVehicles
 			class _xx_hlc_100Rnd_762x51_M_M60E4
 			{
 				count = 5;
-				magazine = "BWA3_120Rnd_762x51";
+				magazine = "rhsusf_100Rnd_762x51";
 			};
 		};
 		class TransportItems
@@ -1267,8 +1267,8 @@ class CfgVehicles
 		displayName = "T1 MG Specialist";
 		weapons[] = {"T1_LMG_BWA3_MG5_Hamr_pointer_F","hgun_Pistol_heavy_01_F","Throw","Put","Rangefinder"};
 		respawnweapons[] = {"T1_LMG_BWA3_MG5_Hamr_pointer_F","hgun_Pistol_heavy_01_F","Throw","Put","Rangefinder"};
-		magazines[] = {"ACE_M84","BWA3_120Rnd_762x51","BWA3_120Rnd_762x51","BWA3_120Rnd_762x51","BWA3_120Rnd_762x51","BWA3_120Rnd_762x51","BWA3_120Rnd_762x51","BWA3_120Rnd_762x51","BWA3_120Rnd_762x51","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","HandGrenade","SmokeShell"};
-		respawnmagazines[] = {"ACE_M84","BWA3_120Rnd_762x51","BWA3_120Rnd_762x51","BWA3_120Rnd_762x51","BWA3_120Rnd_762x51","BWA3_120Rnd_762x51","BWA3_120Rnd_762x51","BWA3_120Rnd_762x51","BWA3_120Rnd_762x51","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","HandGrenade","SmokeShell"};
+		magazines[] = {"ACE_M84","rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","HandGrenade","SmokeShell"};
+		respawnmagazines[] = {"ACE_M84","rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","HandGrenade","SmokeShell"};
 		icon = "iconManMG";
 		backpack = "T1_Kitbag_camo";
 		items[] = {"ACRE_PRC148","ACE_IR_Strobe_Item",STDITEMS,"ACE_SpareBarrel"};
@@ -1770,9 +1770,9 @@ class CfgVehicles
 				magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
 				count = 48;
 			};
-			class _xx_BWA3_120Rnd_762x51
+			class _xx_rhsusf_100Rnd_762x51
 			{
-				magazine = "BWA3_120Rnd_762x51";
+				magazine = "rhsusf_100Rnd_762x51";
 				count = 32;
 			};
 			class _xx_7Rnd_408_Mag
