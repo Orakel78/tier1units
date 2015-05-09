@@ -616,10 +616,10 @@ class CfgVehicles
 		scope = 1;
 		class TransportMagazines
 		{
-			class _xx_hlc_100Rnd_762x51_M_M60E4
+			class _xx_rhsusf_100Rnd_556x45_soft_pouch
 			{
 				count = 6;
-				magazine = "hlc_100Rnd_762x51_M_M60E4";
+				magazine = "rhsusf_100Rnd_556x45_soft_pouch";
 			};
 		};
 		class TransportItems
@@ -980,8 +980,8 @@ class CfgVehicles
 		displayName = "T1 SF AR";
 		weapons[] = {"T1_LMG_hlc_M60E4_Hamr","T1_hgun_Pistol_heavy_01_snds_F","Throw","Put","Rangefinder"};
 		respawnweapons[] = {"T1_LMG_hlc_M60E4_Hamr","T1_hgun_Pistol_heavy_01_snds_F","Throw","Put","Rangefinder"};
-		magazines[] = {"ACE_M84","HandGrenade","SmokeShell","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4"};
-		respawnmagazines[] = {"ACE_M84","HandGrenade","SmokeShell","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4"};
+		magazines[] = {"ACE_M84","HandGrenade","SmokeShell","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch"};
+		respawnmagazines[] = {"ACE_M84","HandGrenade","SmokeShell","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch"};
 		icon = "iconManMG";
 		backpack = "T1_Kitbag_camo";
 		items[] = {STDITEMS,"ACE_SpareBarrel"};
@@ -1098,8 +1098,8 @@ class CfgVehicles
 		displayName = "T1 Diver AR";
 		weapons[] = {"T1_LMG_hlc_M60E4_Hamr","T1_hgun_Pistol_heavy_01_snds_F","Throw","Put","Rangefinder"};
 		respawnweapons[] = {"T1_LMG_hlc_M60E4_Hamr","T1_hgun_Pistol_heavy_01_snds_F","Throw","Put","Rangefinder"};
-		magazines[] = {"ACE_M84","HandGrenade","SmokeShell","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4"};
-		respawnmagazines[] = {"ACE_M84","HandGrenade","SmokeShell","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4"};
+		magazines[] = {"ACE_M84","HandGrenade","SmokeShell","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch"};
+		respawnmagazines[] = {"ACE_M84","HandGrenade","SmokeShell","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch"};
 		icon = "iconManMG";
 		backpack = "T1_Kitbag_camo";
 		items[] = {STDITEMS,"ACE_SpareBarrel"};
@@ -1474,8 +1474,8 @@ class CfgVehicles
 		displayName = "Automatic Rifleman";
 		weapons[] = {"T1_LMG_hlc_M60E4_Hamr","hgun_Pistol_heavy_01_F","Throw","Put","Rangefinder"};
 		respawnWeapons[] = {"T1_LMG_hlc_M60E4_Hamr","hgun_Pistol_heavy_01_F","Throw","Put","Rangefinder"};
-		magazines[] = {"ACE_M84","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
-		respawnmagazines[] = {"ACE_M84","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_M_M60E4","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		magazines[] = {"ACE_M84","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
+		respawnmagazines[] = {"ACE_M84","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","HandGrenade","HandGrenade","SmokeShell","SmokeShell"};
 		icon = "iconManMG";
 		backpack = "T1_Kitbag_camo";
 		items[] = {STDITEMS};
@@ -1671,9 +1671,9 @@ class CfgVehicles
 				magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
 				count = 72;
 			};
-			class _xx_hlc_100Rnd_762x51_M_M60E4
+			class _xx_rhsusf_100Rnd_556x45_soft_pouch
 			{
-				magazine = "hlc_100Rnd_762x51_M_M60E4";
+				magazine = "rhsusf_100Rnd_556x45_soft_pouch";
 				count = 18;
 			};
 			class _xx_20Rnd_762x51_Mag
@@ -1954,9 +1954,9 @@ class CfgVehicles
 				magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
 				count = 16;
 			};
-			class _xx_hlc_100Rnd_762x51_M_M60E4
+			class _xx_rhsusf_100Rnd_556x45_soft_pouch
 			{
-				magazine = "hlc_100Rnd_762x51_M_M60E4";
+				magazine = "rhsusf_100Rnd_556x45_soft_pouch";
 				count = 6;
 			};
 			class _xx_HandGrenade
@@ -2068,9 +2068,9 @@ class CfgVehicles
 				magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
 				count = 16;
 			};
-			class _xx_hlc_100Rnd_762x51_M_M60E4
+			class _xx_rhsusf_100Rnd_556x45_soft_pouch
 			{
-				magazine = "hlc_100Rnd_762x51_M_M60E4";
+				magazine = "rhsusf_100Rnd_556x45_soft_pouch";
 				count = 6;
 			};
 			class _xx_HandGrenade
@@ -2182,9 +2182,9 @@ class CfgVehicles
 				magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
 				count = 16;
 			};
-			class _xx_hlc_100Rnd_762x51_M_M60E4
+			class _xx_rhsusf_100Rnd_556x45_soft_pouch
 			{
-				magazine = "hlc_100Rnd_762x51_M_M60E4";
+				magazine = "rhsusf_100Rnd_556x45_soft_pouch";
 				count = 6;
 			};
 			class _xx_HandGrenade
