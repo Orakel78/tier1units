@@ -17,7 +17,7 @@ class CfgPatches
 	class t1_units
 	{
 		units[] = {"T1_Kitbag_camo_SF_Marksman","T1_Kitbag_camo_Lead","T1_Kitbag_camo_Lead_Trainer","T1_Carryall_camo_AMG","T1_Carryall_camo_AAA","T1_Carryall_camo_AAT","T1_Kitbag_camo_AA","T1_Kitbag_camo_AT","T1_Kitbag_camo_AR","T1_Carryall_camo_PLSgt_JTAC","T1_Carryall_camo_PLEOD","T1_Carryall_camo_Exp","T1_Carryall_camo_Exp_SF","T1_Kitbag_camo_Repair","T1_Carryall_camo","T1_Kitbag_camo_cls","T1_Kitbag_camo_medic","T1_Kitbag_camo_ws","T1_Kitbag_camo","T1_Platoon_Sgt_Standard_F","T1_Platoon_EOD_Standard_F","T1_Platoon_Medic_Standard_F","T1_Platoon_Lead_Standard_F","T1_Section_AT_Standard_F","T1_Section_WS_Standard_F","T1_Section_AAR_Standard_F","T1_Section_AR_Standard_F","T1_Section_CLS_Standard_F","T1_Section_Sgt_Standard_F","T1_Section_Lead_Standard_F","T1_Sentinel_Driver_Standard_F","T1_Sentinel_Gunner_Standard_F","T1_Sentinel_Commander_Standard_F","T1_Crew_Commander_Standard_F","T1_Crewman_Standard_F","T1_Scout_TL_Standard_F","T1_Scout_Standard_F","T1_Specialist_AMG_Standard_F","T1_Specialist_MG_Standard_F","T1_Specialist_AAA_Standard_F","T1_Specialist_AA_Standard_F","T1_Specialist_AAT_Standard_F","T1_Specialist_AT_Standard_F","T1_Sniper_Standard_F","T1_Spotter_Standard_F","T1_Pilot_Night_F","T1_Pilot_Camo_F","T1_Pilot_BlackCamo_F","T1_Pilot_Black_F","T1_Pilot_Standard_F","T1_Diver_AR_Standard_F","T1_Diver_AT_Standard_F","T1_Diver_FTL_Standard_F","T1_Diver_Medic_Standard_F","T1_Diver_Explosive_Standard_F","T1_Diver_Marksman_SOS_Standard_F","T1_Diver_Soldier_F","T1_SF_AR_Standard_F","T1_SF_AT_Standard_F","T1_SF_FTL_Standard_F","T1_SF_Medic_Standard_F","T1_SF_Explosive_Standard_F","T1_SF_Marksman_SOS_Standard_F","T1_Soldier_F","T1_Instructor_Polo_Orange_F","T1_Instructor_Polo_Black_F","T1_B_MRAP_01_hmg_Woodland_F","T1_B_MRAP_01_gmg_Woodland_F","T1_B_MRAP_01_Woodland_F","T1_Heli_Light_01_armed_BlackCamo_F","T1_Heli_Light_01_BlackCamo_F","T1_Heli_Light_01_armed_Black_F","T1_Heli_Light_01_Black_F","T1_Heli_Light_01_armed_Night_F","T1_Heli_Light_01_Night_F","T1_Heli_Light_01_armed_Camo_F","T1_Heli_Light_01_Camo_F","T1_Kitbag_camo_medic_sf","T1_Kitbag_camo_Section_AT","T1_section_ammobox","T1_support_ammobox","T1_eod_ammobox"};
-		weapons[] = {"T1_V_PlateCarrier2_Standard","T1_U_Pilot_Night","T1_U_Pilot_Camo","T1_U_Pilot_BlackCamo","T1_U_Pilot_Black","T1_U_Pilot_Standard","T1_U_Instructor_Polo_Orange","T1_U_Instructor_Polo_Black","T1_U_Sniper_Standard","T1_U_Diver_Standard","T1_U_Squad_Standard","T1_rhs_m4a1_m320_Hamr_pointer_F","T1_rhs_weap_m4a1_grip_Hamr_pointer_F","T1_LMG_BWA3_MG5_Hamr_pointer_F","T1_LMG_hlc_M60E4_Hamr","T1_srifle_LRR_SOS_pointer_F","T1_srifle_EBR_DMS_pointer_F","T1_srifle_EBR_DMS_pointer_F","T1_BWA3_MP7_LLM01_snds_F","T1_hgun_Pistol_heavy_01_snds_F"};
+		weapons[] = {"T1_V_PlateCarrier2_Standard","T1_U_Pilot_Night","T1_U_Pilot_Camo","T1_U_Pilot_BlackCamo","T1_U_Pilot_Black","T1_U_Pilot_Standard","T1_U_Instructor_Polo_Orange","T1_U_Instructor_Polo_Black","T1_U_Sniper_Standard","T1_U_Diver_Standard","T1_U_Squad_Standard","T1_rhs_m4a1_m320_Hamr_pointer_F","T1_rhs_weap_m4a1_grip_Hamr_pointer_F","T1_LMG_BWA3_MG5_Hamr_pointer_F","T1_LMG_hlc_M60E4_Hamr","T1_srifle_LRR_SOS_pointer_F","T1_srifle_EBR_DMS_pointer_F","T1_srifle_EBR_DMS_pointer_F","T1_hgun_Pistol_heavy_01_snds_F","T1_hgun_Pistol_heavy_01_snds_F"};
 		magazines[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"ace_medical","rhsusf_c_weapons"};
@@ -896,10 +896,10 @@ class CfgVehicles
 		faction = "T1_Units";
 		vehicleClass = "SF";
 		displayName = "T1 SF Marksman";
-		weapons[] = {"T1_srifle_EBR_DMS_pointer_F","T1_BWA3_MP7_LLM01_snds_F","Throw","Put","Rangefinder"};
-		respawnWeapons[] = {"T1_srifle_EBR_DMS_pointer_F","T1_BWA3_MP7_LLM01_snds_F","Throw","Put","Rangefinder"};
-		magazines[] = {"ACE_M84","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","BWA3_40Rnd_46x30_MP7","BWA3_40Rnd_46x30_MP7","BWA3_40Rnd_46x30_MP7","BWA3_40Rnd_46x30_MP7_SD","BWA3_40Rnd_46x30_MP7_SD","HandGrenade","HandGrenade","SmokeShell","SmokeShellGreen"};
-		respawnmagazines[] = {"ACE_M84","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","BWA3_40Rnd_46x30_MP7","BWA3_40Rnd_46x30_MP7","BWA3_40Rnd_46x30_MP7","BWA3_40Rnd_46x30_MP7_SD","BWA3_40Rnd_46x30_MP7_SD","HandGrenade","HandGrenade","SmokeShell","SmokeShellGreen"};
+		weapons[] = {"T1_srifle_EBR_DMS_pointer_F","T1_hgun_Pistol_heavy_01_snds_F","Throw","Put","Rangefinder"};
+		respawnWeapons[] = {"T1_srifle_EBR_DMS_pointer_F","T1_hgun_Pistol_heavy_01_snds_F","Throw","Put","Rangefinder"};
+		magazines[] = {"ACE_M84","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag_SD","11Rnd_45ACP_Mag_SD","HandGrenade","HandGrenade","SmokeShell","SmokeShellGreen"};
+		respawnmagazines[] = {"ACE_M84","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag_SD","11Rnd_45ACP_Mag_SD","HandGrenade","HandGrenade","SmokeShell","SmokeShellGreen"};
 		backpack = "T1_Kitbag_camo_SF_Marksman";
 		camouflage = 0.8;
 	};
@@ -1014,10 +1014,10 @@ class CfgVehicles
 		faction = "T1_Units";
 		vehicleClass = "Diver";
 		displayName = "T1 Diver Marksman";
-		weapons[] = {"T1_srifle_EBR_DMS_pointer_F","T1_BWA3_MP7_LLM01_snds_F","Throw","Put","Rangefinder"};
-		respawnWeapons[] = {"T1_srifle_EBR_DMS_pointer_F","T1_BWA3_MP7_LLM01_snds_F","Throw","Put","Rangefinder"};
-		magazines[] = {"ACE_M84","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","BWA3_40Rnd_46x30_MP7","BWA3_40Rnd_46x30_MP7","BWA3_40Rnd_46x30_MP7","BWA3_40Rnd_46x30_MP7_SD","BWA3_40Rnd_46x30_MP7_SD","HandGrenade","HandGrenade","SmokeShell","SmokeShellGreen"};
-		respawnmagazines[] = {"ACE_M84","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","BWA3_40Rnd_46x30_MP7","BWA3_40Rnd_46x30_MP7","BWA3_40Rnd_46x30_MP7","BWA3_40Rnd_46x30_MP7_SD","BWA3_40Rnd_46x30_MP7_SD","HandGrenade","HandGrenade","SmokeShell","SmokeShellGreen"};
+		weapons[] = {"T1_srifle_EBR_DMS_pointer_F","T1_hgun_Pistol_heavy_01_snds_F","Throw","Put","Rangefinder"};
+		respawnWeapons[] = {"T1_srifle_EBR_DMS_pointer_F","T1_hgun_Pistol_heavy_01_snds_F","Throw","Put","Rangefinder"};
+		magazines[] = {"ACE_M84","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag_SD","11Rnd_45ACP_Mag_SD","HandGrenade","HandGrenade","SmokeShell","SmokeShellGreen"};
+		respawnmagazines[] = {"ACE_M84","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag_SD","11Rnd_45ACP_Mag_SD","HandGrenade","HandGrenade","SmokeShell","SmokeShellGreen"};
 		backpack = "T1_Kitbag_camo_SF_Marksman";
 		camouflage = 0.8;
 	};
@@ -1190,10 +1190,10 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"\Ghillie\ghillie_wood_co.paa"};
-		weapons[] = {"srifle_LRR_SOS_F","T1_BWA3_MP7_LLM01_snds_F","Throw","Put","Rangefinder"};
-		respawnWeapons[] = {"srifle_LRR_SOS_F","T1_BWA3_MP7_LLM01_snds_F","Throw","Put","Rangefinder"};
-		magazines[] = {"HandGrenade","HandGrenade","ACE_M84","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","BWA3_40Rnd_46x30_MP7","BWA3_40Rnd_46x30_MP7","BWA3_40Rnd_46x30_MP7","BWA3_40Rnd_46x30_MP7_SD","BWA3_40Rnd_46x30_MP7_SD","SmokeShell"};
-		respawnmagazines[] = {"HandGrenade","HandGrenade","ACE_M84","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","BWA3_40Rnd_46x30_MP7","BWA3_40Rnd_46x30_MP7","BWA3_40Rnd_46x30_MP7","BWA3_40Rnd_46x30_MP7_SD","BWA3_40Rnd_46x30_MP7_SD","SmokeShell"};
+		weapons[] = {"srifle_LRR_SOS_F","T1_hgun_Pistol_heavy_01_snds_F","Throw","Put","Rangefinder"};
+		respawnWeapons[] = {"srifle_LRR_SOS_F","T1_hgun_Pistol_heavy_01_snds_F","Throw","Put","Rangefinder"};
+		magazines[] = {"HandGrenade","HandGrenade","ACE_M84","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag_SD","11Rnd_45ACP_Mag_SD","SmokeShell"};
+		respawnmagazines[] = {"HandGrenade","HandGrenade","ACE_M84","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag_SD","11Rnd_45ACP_Mag_SD","SmokeShell"};
 		linkedItems[] = {"T1_V_PlateCarrier2_Standard","ACE_NVG_Gen4","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"T1_V_PlateCarrier2_Standard","ACE_NVG_Gen4","ItemMap","ItemCompass","ItemWatch"};
 		items[] = {"ACE_IR_Strobe_Item","ACE_DefusalKit","ACRE_PRC148","ACE_Kestrel","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_morphine","ACE_morphine","ACE_morphine","ACE_epinephrine",STDITEMS,"ACE_Kestrel"};
@@ -1780,9 +1780,9 @@ class CfgVehicles
 				magazine = "7Rnd_408_Mag";
 				count = 36;
 			};
-			class _xx_BWA3_40Rnd_46x30_MP7
+			class _xx_11Rnd_45ACP_Mag
 			{
-				magazine = "BWA3_40Rnd_46x30_MP7";
+				magazine = "11Rnd_45ACP_Mag";
 				count = 16;
 			};
 			class _xx_11Rnd_45ACP_Mag
@@ -2416,7 +2416,7 @@ class CfgWeapons
 		};
 	};
 	class BWA3_MP7;
-	class T1_BWA3_MP7_LLM01_snds_F: BWA3_MP7
+	class T1_hgun_Pistol_heavy_01_snds_F: BWA3_MP7
 	{
 		class LinkedItems
 		{
