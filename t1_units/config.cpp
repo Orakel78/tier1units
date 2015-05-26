@@ -819,6 +819,14 @@ class CfgVehicles
 	class T1_Kitbag_camo_Section_AT: T1_Kitbag_camo
 	{
 		scope = 1;
+		class TransportMagazines
+		{
+			class _xx_rhs_fgm148_magazine_AT
+			{
+				count = 2;
+				magazine = "rhs_fgm148_magazine_AT";
+			};
+		};
 		class TransportItems
 		{
 			class _xx_ACE_fieldDressing
@@ -841,15 +849,7 @@ class CfgVehicles
 				count = 1;
 				name = "rhs_googles_clear";
 			};
-		};
-		class TransportWeapons
-		{
-			class _xx_rhs_weap_M136_hedp
-			{
-				weapon = "rhs_weap_M136_hedp";
-				count = 1;
-			};
-		};
+		};		
 	};
 	class B_RangeMaster_F;
 	class T1_Instructor_Polo_Black_F: B_RangeMaster_F
@@ -1516,8 +1516,8 @@ class CfgVehicles
 		faction = "T1_Units";
 		vehicleClass = "Section";
 		displayName = "Rifleman AT";
-		weapons[] = {"T1_rhs_weap_m4a1_grip_Hamr_pointer_F","hgun_Pistol_heavy_01_F","Throw","Put","Rangefinder","rhs_weap_M136_hp"};
-		respawnWeapons[] = {"T1_rhs_weap_m4a1_grip_Hamr_pointer_F","hgun_Pistol_heavy_01_F","Throw","Put","Rangefinder","rhs_weap_M136_hp"};
+		weapons[] = {"T1_rhs_weap_m4a1_grip_Hamr_pointer_F","hgun_Pistol_heavy_01_F","Throw","Put","Rangefinder","rhs_weap_fgm148"};
+		respawnWeapons[] = {"T1_rhs_weap_m4a1_grip_Hamr_pointer_F","hgun_Pistol_heavy_01_F","Throw","Put","Rangefinder","rhs_weap_fgm148"};
 		magazines[] = {"SmokeShell","SmokeShell","HandGrenade","HandGrenade","ACE_M84","ACE_M84","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag"};
 		respawnmagazines[] = {"SmokeShell","SmokeShell","HandGrenade","HandGrenade","ACE_M84","ACE_M84","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag"};
 		items[] = {STDITEMS};
