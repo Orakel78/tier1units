@@ -108,7 +108,6 @@ class CfgPatches
 		requiredAddons[] = {"BWA3_Weapons",
 			"BWA3_Weapons_t1fix",
 			"ace_medical",
-			"BWA3_Kestrel",
 			"rhsusf_c_weapons",
 			"t1_556_sd_ammo"};
 	};
