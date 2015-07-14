@@ -16,7 +16,7 @@ class CfgPatches
 {
 	class t1_units
 	{
-		units[] = {"T1_Kitbag_camo_SF_Marksman","T1_Kitbag_camo_Lead","T1_Kitbag_camo_Lead_Trainer","T1_Carryall_camo_AMG","T1_Carryall_camo_AAA","T1_Carryall_camo_AAT","T1_Kitbag_camo_AA","T1_Kitbag_camo_AT","T1_Kitbag_camo_AR","T1_Carryall_camo_PLSgt_JTAC","T1_Carryall_camo_PLEOD","T1_Carryall_camo_Exp","T1_Carryall_camo_Exp_SF","T1_Kitbag_camo_Repair","T1_Carryall_camo","T1_Kitbag_camo_cls","T1_Kitbag_camo_medic","T1_Kitbag_camo_ws","T1_Kitbag_camo","T1_Platoon_Sgt_Standard_F","T1_Platoon_EOD_Standard_F","T1_Platoon_Medic_Standard_F","T1_Platoon_Lead_Standard_F","T1_Section_AT_Standard_F","T1_Section_WS_Standard_F","T1_Section_AAR_Standard_F","T1_Section_AR_Standard_F","T1_Section_CLS_Standard_F","T1_Section_Sgt_Standard_F","T1_Section_Lead_Standard_F","T1_Sentinel_Driver_Standard_F","T1_Sentinel_Gunner_Standard_F","T1_Sentinel_Commander_Standard_F","T1_Crew_Commander_Standard_F","T1_Crewman_Standard_F","T1_Scout_TL_Standard_F","T1_Scout_Standard_F","T1_Specialist_AMG_Standard_F","T1_Specialist_MG_Standard_F","T1_Specialist_AAA_Standard_F","T1_Specialist_AA_Standard_F","T1_Specialist_AAT_Standard_F","T1_Specialist_AT_Standard_F","T1_Sniper_Standard_F","T1_Spotter_Standard_F","T1_Pilot_Night_F","T1_Pilot_Camo_F","T1_Pilot_BlackCamo_F","T1_Pilot_Black_F","T1_Pilot_Standard_F","T1_Soldier_F","T1_Instructor_Polo_Orange_F","T1_Instructor_Polo_Black_F","T1_B_MRAP_01_hmg_Woodland_F","T1_B_MRAP_01_gmg_Woodland_F","T1_B_MRAP_01_Woodland_F","T1_Heli_Light_01_armed_BlackCamo_F","T1_Heli_Light_01_BlackCamo_F","T1_Heli_Light_01_armed_Black_F","T1_Heli_Light_01_Black_F","T1_Heli_Light_01_armed_Night_F","T1_Heli_Light_01_Night_F","T1_Heli_Light_01_armed_Camo_F","T1_Heli_Light_01_Camo_F","T1_Kitbag_camo_medic_sf","T1_Kitbag_camo_Section_AT","T1_section_ammobox","T1_support_ammobox","T1_eod_ammobox"};
+		units[] = {"T1_Kitbag_camo_Lead","T1_Kitbag_camo_Lead_Trainer","T1_Carryall_camo_AMG","T1_Carryall_camo_AAA","T1_Carryall_camo_AAT","T1_Kitbag_camo_AA","T1_Kitbag_camo_AT","T1_Kitbag_camo_AR","T1_Carryall_camo_PLSgt_JTAC","T1_Carryall_camo_PLEOD","T1_Carryall_camo_Exp","T1_Kitbag_camo_Repair","T1_Carryall_camo","T1_Kitbag_camo_cls","T1_Kitbag_camo_medic","T1_Kitbag_camo_ws","T1_Kitbag_camo","T1_Platoon_Sgt_Standard_F","T1_Platoon_EOD_Standard_F","T1_Platoon_Medic_Standard_F","T1_Platoon_Lead_Standard_F","T1_Section_AT_Standard_F","T1_Section_WS_Standard_F","T1_Section_AAR_Standard_F","T1_Section_AR_Standard_F","T1_Section_CLS_Standard_F","T1_Section_Sgt_Standard_F","T1_Section_Lead_Standard_F","T1_Sentinel_Driver_Standard_F","T1_Sentinel_Gunner_Standard_F","T1_Sentinel_Commander_Standard_F","T1_Crew_Commander_Standard_F","T1_Crewman_Standard_F","T1_Scout_TL_Standard_F","T1_Scout_Standard_F","T1_Specialist_AMG_Standard_F","T1_Specialist_MG_Standard_F","T1_Specialist_AAA_Standard_F","T1_Specialist_AA_Standard_F","T1_Specialist_AAT_Standard_F","T1_Specialist_AT_Standard_F","T1_Sniper_Standard_F","T1_Spotter_Standard_F","T1_Pilot_Night_F","T1_Pilot_Camo_F","T1_Pilot_BlackCamo_F","T1_Pilot_Black_F","T1_Pilot_Standard_F","T1_Soldier_F","T1_Instructor_Polo_Orange_F","T1_Instructor_Polo_Black_F","T1_B_MRAP_01_hmg_Woodland_F","T1_B_MRAP_01_gmg_Woodland_F","T1_B_MRAP_01_Woodland_F","T1_Heli_Light_01_armed_BlackCamo_F","T1_Heli_Light_01_BlackCamo_F","T1_Heli_Light_01_armed_Black_F","T1_Heli_Light_01_Black_F","T1_Heli_Light_01_armed_Night_F","T1_Heli_Light_01_Night_F","T1_Heli_Light_01_armed_Camo_F","T1_Heli_Light_01_Camo_F","T1_Kitbag_camo_Section_AT","T1_section_ammobox","T1_support_ammobox","T1_eod_ammobox"};
 		weapons[] = {"T1_V_PlateCarrier2_Standard","T1_U_Pilot_Night","T1_U_Pilot_Camo","T1_U_Pilot_BlackCamo","T1_U_Pilot_Black","T1_U_Pilot_Standard","T1_U_Instructor_Polo_Orange","T1_U_Instructor_Polo_Black","T1_U_Sniper_Standard","T1_U_Diver_Standard","T1_U_Squad_Standard","T1_rhs_m4a1_m320_Hamr_pointer_F","T1_rhs_m4a1_m320_Hamr_pointer_SD_F","T1_rhs_weap_m4a1_grip_Hamr_pointer_F","T1_rhs_weap_m4a1_grip_Hamr_pointer_SD_F","T1_LMG_BWA3_MG5_Hamr_pointer_F","T1_rhs_weap_m249_pip_L_Hamr","T1_LMG_hlc_M60E4_Hamr","T1_srifle_LRR_SOS_pointer_F","T1_srifle_EBR_DMS_pointer_F","BWA3_G28_Assault_SOS_pointer_sd","T1_BWA3_MP7_LLM01_snds_F","T1_hgun_Pistol_heavy_01_snds_F"};
 		magazines[] = {};
 		requiredVersion = 0.1;
@@ -131,48 +131,6 @@ class CfgVehicles
 			};
 		};
 	};
-	class T1_Kitbag_camo_Lead_SF: B_Kitbag_Base
-	{
-		scope = 2;
-		displayName = "Kitbag Lead (T1 Camo)";
-		hiddenSelectionsTextures[] = {"\t1_units\data\backpacks\t1_kitbag_camo_co.paa"};
-		class TransportMagazines
-		{			
-			class _xx_hlc_100Rnd_762x51_M_M60E4
-			{
-				count = 1;
-				magazine = "hlc_100Rnd_762x51_M_M60E4";
-			};
-		};
-		class TransportItems
-		{
-			class _xx_ACE_fieldDressing
-			{
-				count = 9;
-				name = "ACE_fieldDressing";
-			};
-			class _xx_ACE_morphine
-			{
-				count = 3;
-				name = "ACE_morphine";
-			};
-			class _xx_ACE_epinephrine
-			{
-				count = 1;
-				name = "ACE_epinephrine";
-			};
-			class _xx_BWA3_G_Combat_Clear
-			{
-				count = 1;
-				name = "BWA3_G_Combat_Clear";
-			};
-			class _xx_ACE_Vector
-			{
-				count = 1;
-				name = "ACE_Vector";
-			};
-		};
-	};
 	class T1_Kitbag_camo_Lead_Trainer: B_Kitbag_Base
 	{
 		scope = 2;
@@ -254,48 +212,6 @@ class CfgVehicles
 			};
 		};
 	};
-	class T1_Kitbag_camo_SF_Marksman: B_Kitbag_Base
-	{
-		scope = 2;
-		displayName = "Kitbag SF Marksman (T1 Camo)";
-		hiddenSelectionsTextures[] = {"\t1_units\data\backpacks\t1_kitbag_camo_co.paa"};
-		class TransportMagazines
-		{			
-			class _xx_hlc_100Rnd_762x51_M_M60E4
-			{
-				count = 1;
-				magazine = "hlc_100Rnd_762x51_M_M60E4";
-			};
-		};
-		class TransportItems
-		{
-			class _xx_ACE_fieldDressing
-			{
-				count = 9;
-				name = "ACE_fieldDressing";
-			};
-			class _xx_ACE_morphine
-			{
-				count = 3;
-				name = "ACE_morphine";
-			};
-			class _xx_ACE_epinephrine
-			{
-				count = 1;
-				name = "ACE_epinephrine";
-			};
-			class _xx_rhs_googles_clear
-			{
-				count = 1;
-				name = "rhs_googles_clear";
-			};
-			class _xx_ACE_Kestrel
-			{
-				count = 1;
-				name = "ACE_Kestrel";
-			};
-		};
-	};
 	class T1_Kitbag_camo_ws: T1_Kitbag_camo
 	{
 		scope = 1;
@@ -353,48 +269,6 @@ class CfgVehicles
 			class _xx_ACE_bloodIV_250
 			{
 				count = 20;
-				name = "ACE_bloodIV_250";
-			};
-			class _xx_rhs_googles_clear
-			{
-				count = 1;
-				name = "rhs_googles_clear";
-			};
-		};
-	};
-	class T1_Kitbag_camo_medic_sf: B_Kitbag_Base
-	{
-		scope = 2;
-		displayName = "Kitbag Medic (T1 Camo)";
-		hiddenSelectionsTextures[] = {"\t1_units\data\backpacks\t1_kitbag_camo_medic_co.paa"};
-		class TransportMagazines
-		{			
-			class _xx_hlc_100Rnd_762x51_M_M60E4
-			{
-				count = 1;
-				magazine = "hlc_100Rnd_762x51_M_M60E4";
-			};
-		};
-		class TransportItems
-		{
-			class _xx_ACE_fieldDressing
-			{
-				count = 30;
-				name = "ACE_fieldDressing";
-			};
-			class _xx_ACE_morphine
-			{
-				count = 15;
-				name = "ACE_morphine";
-			};
-			class _xx_ACE_epinephrine
-			{
-				count = 10;
-				name = "ACE_epinephrine";
-			};
-			class _xx_ACE_bloodIV_250
-			{
-				count = 14;
 				name = "ACE_bloodIV_250";
 			};
 			class _xx_rhs_googles_clear
@@ -539,56 +413,6 @@ class CfgVehicles
 				count = 1;
 				name = "ToolKit";
 			};
-			class _xx_MineDetector
-			{
-				count = 1;
-				name = "MineDetector";
-			};
-			class _xx_ACE_fieldDressing
-			{
-				count = 9;
-				name = "ACE_fieldDressing";
-			};
-			class _xx_ACE_morphine
-			{
-				count = 3;
-				name = "ACE_morphine";
-			};
-			class _xx_ACE_epinephrine
-			{
-				count = 1;
-				name = "ACE_epinephrine";
-			};
-			class _xx_rhs_googles_clear
-			{
-				count = 1;
-				name = "rhs_googles_clear";
-			};
-		};
-	};
-	class T1_Carryall_camo_Exp_SF: T1_Carryall_camo
-	{
-		scope = 1;
-		class TransportMagazines
-		{
-			class _xx_SatchelCarge_Remote_Mag
-			{
-				count = 1;
-				magazine = "SatchelCharge_Remote_Mag";
-			};
-			class _xx_DemoCharge_Remote_Mag
-			{
-				count = 4;
-				magazine = "DemoCharge_Remote_Mag";
-			};
-			class _xx_hlc_100Rnd_762x51_M_M60E4
-			{
-				count = 1;
-				magazine = "hlc_100Rnd_762x51_M_M60E4";
-			};
-		};
-		class TransportItems
-		{
 			class _xx_MineDetector
 			{
 				count = 1;
