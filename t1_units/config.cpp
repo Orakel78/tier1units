@@ -1175,8 +1175,8 @@ class CfgVehicles
 		faction = "T1_Units";
 		vehicleClass = "SF";
 		displayName = "T1 SF Radioman";
-		weapons[] = {"T1_rhs_weap_m4a1_grip_Hamr_pointer_SD_F","Throw","Put","Rangefinder","BWA3_RGW90"};
-		respawnWeapons[] = {"T1_rhs_weap_m4a1_grip_Hamr_pointer_SD_F","Throw","Put","Rangefinder","BWA3_RGW90"};
+		weapons[] = {"T1_rhs_weap_m4a1_grip_Hamr_pointer_SD_F","Throw","Put","Rangefinder","launch_NLAW_F"};
+		respawnWeapons[] = {"T1_rhs_weap_m4a1_grip_Hamr_pointer_SD_F","Throw","Put","Rangefinder","launch_NLAW_F"};
 		magazines[] = {"ACE_M84","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","T1_30Rnd_556x45_Stanag_SD","T1_30Rnd_556x45_Stanag_SD","HandGrenade","HandGrenade","SmokeShell","SmokeShellGreen"};
 		respawnmagazines[] = {"ACE_M84","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","T1_30Rnd_556x45_Stanag_SD","T1_30Rnd_556x45_Stanag_SD","HandGrenade","HandGrenade","SmokeShell","SmokeShellGreen"};
 		items[] = {"ACRE_PRC148",STDITEMS};
@@ -1295,8 +1295,8 @@ class CfgVehicles
 		faction = "T1_Units";
 		vehicleClass = "Diver";
 		displayName = "T1 Diver Radioman";
-		weapons[] = {"T1_rhs_weap_m4a1_grip_Hamr_pointer_SD_F","Throw","Put","Rangefinder","BWA3_RGW90"};
-		respawnWeapons[] = {"T1_rhs_weap_m4a1_grip_Hamr_pointer_SD_F","Throw","Put","Rangefinder","BWA3_RGW90"};
+		weapons[] = {"T1_rhs_weap_m4a1_grip_Hamr_pointer_SD_F","Throw","Put","Rangefinder","launch_NLAW_F"};
+		respawnWeapons[] = {"T1_rhs_weap_m4a1_grip_Hamr_pointer_SD_F","Throw","Put","Rangefinder","launch_NLAW_F"};
 		magazines[] = {"ACE_M84","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","T1_30Rnd_556x45_Stanag_SD","T1_30Rnd_556x45_Stanag_SD","HandGrenade","HandGrenade","SmokeShell","SmokeShellGreen"};
 		respawnmagazines[] = {"ACE_M84","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","T1_30Rnd_556x45_Stanag_SD","T1_30Rnd_556x45_Stanag_SD","HandGrenade","HandGrenade","SmokeShell","SmokeShellGreen"};
 		items[] = {"ACRE_PRC148",STDITEMS};
@@ -1725,8 +1725,8 @@ class CfgVehicles
 		faction = "T1_Units";
 		vehicleClass = "Section";
 		displayName = "Weapon Specialist";
-		weapons[] = {"T1_srifle_EBR_DMS_pointer_F","hgun_Pistol_heavy_01_F","Throw","Put","Rangefinder","BWA3_RGW90"};
-		respawnWeapons[] = {"T1_srifle_EBR_DMS_pointer_F","hgun_Pistol_heavy_01_F","Throw","Put","Rangefinder","BWA3_RGW90"};
+		weapons[] = {"T1_srifle_EBR_DMS_pointer_F","hgun_Pistol_heavy_01_F","Throw","Put","Rangefinder","launch_NLAW_F"};
+		respawnWeapons[] = {"T1_srifle_EBR_DMS_pointer_F","hgun_Pistol_heavy_01_F","Throw","Put","Rangefinder","launch_NLAW_F"};
 		magazines[] = {"SmokeShell","HandGrenade","ACE_M84","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag"};
 		respawnmagazines[] = {"SmokeShell","HandGrenade","ACE_M84","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag"};
 		icon = "iconManAT";
@@ -1740,8 +1740,8 @@ class CfgVehicles
 		faction = "T1_Units";
 		vehicleClass = "Section";
 		displayName = "Rifleman AT";
-		weapons[] = {"T1_rhs_weap_m4a1_grip_Hamr_pointer_F","hgun_Pistol_heavy_01_F","Throw","Put","Rangefinder","BWA3_RGW90"};
-		respawnWeapons[] = {"T1_rhs_weap_m4a1_grip_Hamr_pointer_F","hgun_Pistol_heavy_01_F","Throw","Put","Rangefinder","BWA3_RGW90"};
+		weapons[] = {"T1_rhs_weap_m4a1_grip_Hamr_pointer_F","hgun_Pistol_heavy_01_F","Throw","Put","Rangefinder","launch_NLAW_F"};
+		respawnWeapons[] = {"T1_rhs_weap_m4a1_grip_Hamr_pointer_F","hgun_Pistol_heavy_01_F","Throw","Put","Rangefinder","launch_NLAW_F"};
 		magazines[] = {"SmokeShell","SmokeShell","HandGrenade","HandGrenade","ACE_M84","ACE_M84","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag"};
 		respawnmagazines[] = {"SmokeShell","SmokeShell","HandGrenade","HandGrenade","ACE_M84","ACE_M84","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag"};
 		items[] = {STDITEMS};
@@ -1966,9 +1966,9 @@ class CfgVehicles
 		};
 		class TransportWeapons
 		{
-			class _xx_BWA3_RGW90
+			class _xx_launch_NLAW_F
 			{
-				weapon = "BWA3_RGW90";
+				weapon = "launch_NLAW_F";
 				count = 1;
 			};
 			class _xx_rhs_weap_m136_hedp
@@ -2269,9 +2269,9 @@ class CfgVehicles
 				weapon = "T1_rhs_weap_m4a1_grip_Hamr_pointer_F";
 				count = 1;
 			};
-			class _xx_BWA3_RGW90
+			class _xx_launch_NLAW_F
 			{
-				weapon = "BWA3_RGW90";
+				weapon = "launch_NLAW_F";
 				count = 1;
 			};
 			class _xx_rhs_weap_m136_hedp
@@ -2383,9 +2383,9 @@ class CfgVehicles
 				weapon = "T1_rhs_weap_m4a1_grip_Hamr_pointer_F";
 				count = 1;
 			};
-			class _xx_BWA3_RGW90
+			class _xx_launch_NLAW_F
 			{
-				weapon = "BWA3_RGW90";
+				weapon = "launch_NLAW_F";
 				count = 1;
 			};
 			class _xx_rhs_weap_m136_hedp
@@ -2497,9 +2497,9 @@ class CfgVehicles
 				weapon = "T1_rhs_weap_m4a1_grip_Hamr_pointer_F";
 				count = 1;
 			};
-			class _xx_BWA3_RGW90
+			class _xx_launch_NLAW_F
 			{
-				weapon = "BWA3_RGW90";
+				weapon = "launch_NLAW_F";
 				count = 1;
 			};
 			class _xx_rhs_weap_m136_hedp
