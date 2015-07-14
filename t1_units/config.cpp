@@ -1245,12 +1245,12 @@ class CfgVehicles
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"\Ghillie\ghillie_wood_co.paa"};
 		weapons[] = {"srifle_LRR_LRPS_F",
-			"T1_BWA3_MP7_LLM01_snds_F",
+			"T1_hgun_Pistol_heavy_01_snds_F",
 			"Throw",
 			"Put",
 			"Rangefinder"};
 		respawnWeapons[] = {"srifle_LRR_LRPS_F",
-			"T1_BWA3_MP7_LLM01_snds_F",
+			"T1_hgun_Pistol_heavy_01_snds_F",
 			"Throw",
 			"Put",
 			"Rangefinder"};
@@ -1263,11 +1263,11 @@ class CfgVehicles
 			"7Rnd_408_Mag",
 			"7Rnd_408_Mag",
 			"7Rnd_408_Mag",
-			"BWA3_40Rnd_46x30_MP7",
-			"BWA3_40Rnd_46x30_MP7",
-			"BWA3_40Rnd_46x30_MP7",
-			"BWA3_40Rnd_46x30_MP7_SD",
-			"BWA3_40Rnd_46x30_MP7_SD",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"SmokeShell"};
 		respawnmagazines[] = {"HandGrenade",
 			"HandGrenade",
@@ -1278,11 +1278,11 @@ class CfgVehicles
 			"7Rnd_408_Mag",
 			"7Rnd_408_Mag",
 			"7Rnd_408_Mag",
-			"BWA3_40Rnd_46x30_MP7",
-			"BWA3_40Rnd_46x30_MP7",
-			"BWA3_40Rnd_46x30_MP7",
-			"BWA3_40Rnd_46x30_MP7_SD",
-			"BWA3_40Rnd_46x30_MP7_SD",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
+			"11Rnd_45ACP_Mag",
 			"SmokeShell"};
 		linkedItems[] = {"T1_V_PlateCarrier2_Standard",
 			"ACE_NVG_Gen4",
@@ -3170,9 +3170,9 @@ class CfgVehicles
 				magazine = "7Rnd_408_Mag";
 				count = 36;
 			};
-			class _xx_BWA3_40Rnd_46x30_MP7
+			class _xx_11Rnd_45ACP_Mag
 			{
-				magazine = "BWA3_40Rnd_46x30_MP7";
+				magazine = "11Rnd_45ACP_Mag";
 				count = 16;
 			};
 			class _xx_11Rnd_45ACP_Mag
