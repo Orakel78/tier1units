@@ -101,7 +101,6 @@ class CfgPatches
 			"T1_rhs_weap_m249_pip_L_Hamr",
 			"T1_srifle_LRR_SOS_pointer_F",
 			"T1_srifle_EBR_DMS_pointer_F",
-			"T1_BWA3_MP7_LLM01_snds_F",
 			"T1_hgun_Pistol_heavy_01_snds_F"};
 		magazines[] = {};
 		requiredVersion = 0.1;
@@ -3818,28 +3817,6 @@ class CfgWeapons
 			{
 				item = "optic_SOS";
 				slot = "CowsSlot";
-			};
-		};
-	};
-	class BWA3_MP7;
-	class T1_BWA3_MP7_LLM01_snds_F: BWA3_MP7
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				item = "optic_Aco_smg";
-				slot = "CowsSlot";
-			};
-			class LinkedItemsMuzzle
-			{
-				item = "BWA3_muzzle_snds_MP7";
-				slot = "MuzzleSlot";
-			};
-			class LinkedItemsAcc
-			{
-				item = "BWA3_acc_LLM01_irlaser";
-				slot = "PointerSlot";
 			};
 		};
 	};
