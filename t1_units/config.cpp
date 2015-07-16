@@ -1609,7 +1609,11 @@ class CfgVehicles
 		icon = "iconManMG";
 		backpack = "T1_Kitbag_camo_MG";
 		items[] = {"ACRE_PRC148",
-			"ACE_IR_Strobe_Item",STDITEMS,"ACE_SpareBarrel"};
+			"optic_Hamr",
+			"ACE_IR_Strobe_Item",
+			STDITEMS,
+			"ACE_SpareBarrel"
+		};
 		respawnItems[] = {"ACRE_PRC148",
 			"ACE_IR_Strobe_Item",STDITEMS,"ACE_SpareBarrel"};
 		class altloadout1 {
