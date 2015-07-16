@@ -287,10 +287,10 @@ class CfgVehicles
 				count = 1;
 				name = "ACE_epinephrine";
 			};
-			class _xx_BWA3_G_Combat_Clear
+			class _xx_rhs_goggles_clear
 			{
 				count = 1;
-				name = "BWA3_G_Combat_Clear";
+				name = "rhs_goggles_clear";
 			};
 			class _xx_ACE_Vector
 			{
@@ -655,10 +655,10 @@ class CfgVehicles
 				count = 1;
 				name = "ACE_epinephrine";
 			};
-			class _xx_BWA3_G_Combat_Clear
+			class _xx_rhs_goggles_clear
 			{
 				count = 1;
-				name = "BWA3_G_Combat_Clear";
+				name = "rhs_goggles_clear";
 			};
 		};
 	};
@@ -855,10 +855,10 @@ class CfgVehicles
 				count = 1;
 				name = "ACE_epinephrine";
 			};
-			class _xx_BWA3_G_Combat_Clear
+			class _xx_rhs_goggles_clear
 			{
 				count = 1;
-				name = "BWA3_G_Combat_Clear";
+				name = "rhs_goggles_clear";
 			};
 		};
 	};
