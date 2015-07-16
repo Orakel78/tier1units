@@ -100,14 +100,15 @@ class CfgPatches
 			"T1_rhs_weap_m249_pip_L_Hamr",
 			"T1_srifle_LRR_SOS_pointer_F",
 			"T1_srifle_EBR_DMS_pointer_F",
-			"T1_hgun_Pistol_heavy_01_snds_F"};
+			"T1_hgun_Pistol_heavy_01_snds_F"
+		};
 		magazines[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"BWA3_Weapons",
-			"BWA3_Weapons_t1fix",
+		requiredAddons[] = {
 			"ace_medical",
 			"rhsusf_c_weapons",
-			"t1_556_sd_ammo"};
+			"t1_556_sd_ammo"
+		};
 	};
 };
 class CfgFactionClasses
