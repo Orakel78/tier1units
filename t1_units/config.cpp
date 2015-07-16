@@ -97,7 +97,6 @@ class CfgPatches
 			"T1_rhs_m4a1_m320_Hamr_pointer_SD_F",
 			"T1_rhs_weap_m4a1_grip_Hamr_pointer_F",
 			"T1_rhs_weap_m4a1_grip_Hamr_pointer_SD_F",
-			"T1_LMG_BWA3_MG5_Hamr_pointer_F",
 			"T1_rhs_weap_m249_pip_L_Hamr",
 			"T1_srifle_LRR_SOS_pointer_F",
 			"T1_srifle_EBR_DMS_pointer_F",
@@ -3829,23 +3828,6 @@ class CfgWeapons
 			{
 				item = "optic_Hamr";
 				slot = "CowsSlot";
-			};
-		};
-	};
-	class BWA3_MG5;
-	class T1_LMG_BWA3_MG5_Hamr_pointer_F: BWA3_MG5
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				item = "optic_Hamr";
-				slot = "CowsSlot";
-			};
-			class LinkedItemsAcc
-			{
-				item = "BWA3_acc_LLM01_irlaser";
-				slot = "PointerSlot";
 			};
 		};
 	};
