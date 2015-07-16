@@ -833,9 +833,9 @@ class CfgVehicles
 		scope = 1;
 		class TransportMagazines
 		{
-			class _xx_BWA3_120Rnd_762x51
+			class _xx_rhsusf_100Rnd_762x51_m993
 			{
-				magazine = "BWA3_120Rnd_762x51";
+				magazine = "rhsusf_100Rnd_762x51_m993";
 				count = 3;
 			};
 		};
@@ -869,10 +869,10 @@ class CfgVehicles
 		maximumLoad = 600;
 		class TransportMagazines
 		{
-			class _xx_BWA3_120Rnd_762x51
+			class _xx_rhsusf_100Rnd_762x51_m993
 			{
 				count = 5;
-				magazine = "BWA3_120Rnd_762x51";
+				magazine = "rhsusf_100Rnd_762x51_m993";
 			};
 		};
 		class TransportItems
@@ -1583,26 +1583,26 @@ class CfgVehicles
 		faction = "T1_Units";
 		vehicleClass = "Special";
 		displayName = "T1 MG Specialist";
-		weapons[] = {"T1_LMG_BWA3_MG5_Hamr_pointer_F",
+		weapons[] = {"rhs_weap_m240B",
 			"hgun_Pistol_heavy_01_F",
 			"Throw",
 			"Put",
 			"Rangefinder"};
-		respawnweapons[] = {"T1_LMG_BWA3_MG5_Hamr_pointer_F",
+		respawnweapons[] = {"rhs_weap_m240B",
 			"hgun_Pistol_heavy_01_F",
 			"Throw",
 			"Put",
 			"Rangefinder"};
 		magazines[] = {"ACE_M84",
-			"BWA3_120Rnd_762x51",
-			"BWA3_120Rnd_762x51",
+			"rhsusf_100Rnd_762x51_m993",
+			"rhsusf_100Rnd_762x51_m993",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"HandGrenade",
 			"SmokeShell"};
 		respawnmagazines[] = {"ACE_M84",
-			"BWA3_120Rnd_762x51",
-			"BWA3_120Rnd_762x51",
+			"rhsusf_100Rnd_762x51_m993",
+			"rhsusf_100Rnd_762x51_m993",
 			"11Rnd_45ACP_Mag",
 			"11Rnd_45ACP_Mag",
 			"HandGrenade",
@@ -1672,7 +1672,7 @@ class CfgVehicles
 			"11Rnd_45ACP_Mag",
 			"SmokeShell",
 			"SmokeShellGreen",
-			"BWA3_120Rnd_762x51"};
+			"rhsusf_100Rnd_762x51_m993"};
 		respawnmagazines[] = {"HandGrenade",
 			"ACE_M84",
 			"Laserbatteries",
@@ -1690,7 +1690,7 @@ class CfgVehicles
 			"11Rnd_45ACP_Mag",
 			"SmokeShell",
 			"SmokeShellGreen",
-			"BWA3_120Rnd_762x51"};
+			"rhsusf_100Rnd_762x51_m993"};
 		items[] = {"ACE_IR_Strobe_Item",
 			"ACRE_PRC148",STDITEMS};
 		respawnItems[] = {"ACE_IR_Strobe_Item",
@@ -3159,9 +3159,9 @@ class CfgVehicles
 				magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
 				count = 48;
 			};
-			class _xx_BWA3_120Rnd_762x51
+			class _xx_rhsusf_100Rnd_762x51_m993
 			{
-				magazine = "BWA3_120Rnd_762x51";
+				magazine = "rhsusf_100Rnd_762x51_m993";
 				count = 32;
 			};
 			class _xx_7Rnd_408_Mag
