@@ -1736,12 +1736,12 @@ class CfgVehicles
 		class altloadout1 {
 			description = ".338 MG DLC";
 			weapons[] = {
-			"MMG_02_camo_F",
-			"hgun_Pistol_heavy_01_F",
-			"Throw",
-			"Put",
-			"Rangefinder"
-		};
+				"MMG_02_camo_F",
+				"hgun_Pistol_heavy_01_F",
+				"Throw",
+				"Put",
+				"Rangefinder"
+			};
 			backpack = "T1_Kitbag_camo";
 			magazines[] = {
 			"11Rnd_45ACP_Mag",
