@@ -1744,25 +1744,25 @@ class CfgVehicles
 			};
 			backpack = "T1_Kitbag_camo";
 			magazines[] = {
-			"11Rnd_45ACP_Mag",
-			"11Rnd_45ACP_Mag",
-			"HandGrenade",
-			"SmokeShell",
-			"130Rnd_338_Mag",
-			"130Rnd_338_Mag",
-			"130Rnd_338_Mag",
-			"130Rnd_338_Mag",
-			"130Rnd_338_Mag",
-			"130Rnd_338_Mag",
-			"130Rnd_338_Mag",
-			"130Rnd_338_Mag"
-		};
+				"11Rnd_45ACP_Mag",
+				"11Rnd_45ACP_Mag",
+				"HandGrenade",
+				"SmokeShell",
+				"130Rnd_338_Mag",
+				"130Rnd_338_Mag",
+				"130Rnd_338_Mag",
+				"130Rnd_338_Mag",
+				"130Rnd_338_Mag",
+				"130Rnd_338_Mag",
+				"130Rnd_338_Mag",
+				"130Rnd_338_Mag"
+			};
 			items[] = {
-			"ACRE_PRC148",
-			"ACE_IR_Strobe_Item",
-			"optic_Hamr",
-			"acc_pointer_IR",STDITEMS,"ACE_SpareBarrel"
-		};
+				"ACRE_PRC148",
+				"ACE_IR_Strobe_Item",
+				"optic_Hamr",
+				"acc_pointer_IR",STDITEMS,"ACE_SpareBarrel"
+			};
 		};
 	};
 	class T1_Specialist_AMG_Standard_F: T1_Soldier_F
